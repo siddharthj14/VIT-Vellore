@@ -1,24 +1,30 @@
-nav{
-    width: 100%;
-    color: #fff;
-    padding: 4px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
+nav {
+  width: 100%;
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
 }
 
-.logo{
-    width: 180px;
-    filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+.logo {
+  width: 180px;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%)
+    contrast(80%);
 }
 
-nav ul li{
-    display: inline-block;
-    margin: 5px 20px;
-    list-style: none;
-    font-size: 16px;
+nav ul li {
+  display: inline-block;
+  margin: 5px 20px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav-bg{
+    background-color: #212EA0;
+    transition: 0.5s;
 }

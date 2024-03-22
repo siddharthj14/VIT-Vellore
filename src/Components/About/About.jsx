@@ -3,12 +3,18 @@ import "./About.css";
 import play_icon from "../../assets/play-icon.png";
 import about from "../../assets/about.jpg";
 
-const About = () => {
+const About = (props) => {
   return (
     <div className="about">
       <div className="about-left">
         <img src={about} className="about-img"></img>
-        <img src={play_icon} className="play-icon"></img>
+        <img
+          src={play_icon}
+          className="play-icon"
+          onClick={() => {
+            props.setPlayState(true);
+          }}
+        ></img>
       </div>
       <div className="about-right">
         <h3>ABOUT UNIVERSITY</h3>

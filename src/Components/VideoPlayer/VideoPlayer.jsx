@@ -13,7 +13,7 @@ const VideoPlayer = (props) => {
   };
   return (
     <div
-      className={"video-player" + (props.playState ? "" : "hide")}
+      className={"video-player " + (props.playState ? "" : "hide")}
       ref={player}
       onClick={closePlayer}
     >

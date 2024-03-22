@@ -45,16 +45,15 @@ const Contact = () => {
         <ul>
           <li>
             <img src={mail_icon} />
-            Contact@GreatStack.dev
+            global@vit.ac.in
           </li>
           <li>
             <img src={phone_icon} />
-            +1 123-456-7890
+            91-416-2243091 / 93
           </li>
           <li>
             <img src={location_icon} />
-            77 Massachusetts Ave, Cambridge
-            <br /> MA 02139, United States
+            Vellore Campus <br/>Vellore - 632 014 <br/>Tamilnadu, India
           </li>
         </ul>
       </div>

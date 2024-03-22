@@ -1,10 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
+import menu_icon from "../../assets/menu-icon.png";
 import { Link } from "react-scroll";
+import { useRef } from "react";
 
 const Navbar = () => {
   const [style, setStyle] = useState(false);
+  const menuRef = useRef();
+  let menu = false;
+  const toggleMenu = () => {
+    menu = !menu;
+    if (menu) {
+      menuRef.current.style.right = "0px";
+    } else {
+      menuRef.current.style.right = "-200px";
+    }
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -15,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className={"container " + (style && "nav-bg")}>
       <img src={logo} alt="VIT Logo" className="logo"></img>
-      <ul>
+      <ul className="hide-mobile-menu" ref={menuRef}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
             Home
@@ -49,6 +61,7 @@ const Navbar = () => {
           </button>
         </li>
       </ul>
+      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
     </nav>
   );
 };

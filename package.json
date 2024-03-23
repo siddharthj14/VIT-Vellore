@@ -1,7 +1,7 @@
 {
-  "homepage": "https://siddharthj14.github.io/VIT-Vellore",
   "name": "vit-vellore",
   "private": true,
+  "homepage": "https://siddharthj14.github.io/VIT-Vellore",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

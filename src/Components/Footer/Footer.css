@@ -23,6 +23,11 @@
   margin-bottom: 10px;
 }
 
+span{
+  color: blue;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .footer {
     display: block;

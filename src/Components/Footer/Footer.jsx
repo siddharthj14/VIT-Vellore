@@ -12,9 +12,9 @@ const Footer = () => {
         </ul>
       </div>
       <div className="footer2">
-        ~Made by{" "}
-        <a href="https://siddharths-portfolio.vercel.app/">Siddharth Jain </a>
-        (22BCE0743)
+        ~Made by Siddharth Jain (22BCE0743)
+        <a href="https://siddharths-portfolio.vercel.app/"> <span>Portfolio</span> </a>
+        
       </div>
     </>
   );

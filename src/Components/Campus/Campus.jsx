@@ -9,12 +9,11 @@ const Campus = () => {
   return (
     <div className="campus">
       <div className="gallery">
-        <img src={gallery1}></img>
-        <img src={gallery2}></img>
-        <img src={gallery3}></img>
-        <img src={gallery4}></img>
+        <img src={gallery1} alt="Gallery 1"></img>
+        <img src={gallery2} alt="Gallery 2"></img>
+        <img src={gallery3} alt="Gallery 3"></img>
+        <img src={gallery4} alt="Gallery 4"></img>
       </div>
-      <button className="btn dark-btn">See more here →</button>
     </div>
   );
 };

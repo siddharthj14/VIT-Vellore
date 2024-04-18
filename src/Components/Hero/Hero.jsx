@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -13,7 +13,9 @@ const Hero = () => {
           impactful individuals, collaborate for economic growth, and serve with
           compassion. Join us in shaping a better world.
         </p>
-        <button className="btn">Explore More →</button>
+        <Link to="about" smooth={true} offset={-150} duration={500}>
+          <button className="btn">Explore More →</button>
+        </Link>
       </div>
     </div>
   );

@@ -15,17 +15,21 @@
   width: 23%;
   height: 250px;
   border-radius: 10px;
+  transition: 0.5s ease;
 }
 
 @media (max-width:800px) {
   .gallery{
     flex-wrap: wrap;
-
   }
   .gallery img{
     width: 48%;
     height: 150px;
-
     margin-bottom: 25px;
   }
+}
+
+.gallery img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
 }

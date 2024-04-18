@@ -11,6 +11,16 @@
   list-style: none;
   display: inline-block;
   margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer ul li:hover{
+  text-decoration:underline;
+}
+
+.footer2{
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {

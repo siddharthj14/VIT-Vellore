@@ -26,7 +26,9 @@ const Navbar = () => {
 
   return (
     <nav className={"container " + (style && "nav-bg")}>
-      <img src={logo} alt="VIT Logo" className="logo"></img>
+      <Link to="hero" smooth={true} offset={0} duration={500}>
+        <img src={logo} alt="VIT Logo" className="logo" />
+      </Link>
       <ul className="hide-mobile-menu" ref={menuRef}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>

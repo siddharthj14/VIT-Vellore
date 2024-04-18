@@ -11,7 +11,11 @@ const Footer = () => {
           <li>Privacy Policy</li>
         </ul>
       </div>
-      <div className="footer2">~Made by Siddharth Jain (22BCE0743)</div>
+      <div className="footer2">
+        ~Made by{" "}
+        <a href="https://siddharths-portfolio.vercel.app/">Siddharth Jain </a>
+        (22BCE0743)
+      </div>
     </>
   );
 };
